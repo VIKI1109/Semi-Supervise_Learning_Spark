@@ -1,0 +1,12 @@
+Co_Forest.ipynb ------ This file contains the Co-Forest algorithm
+Data-preprocessing.ipynb ------ This file contains the data preprocessing techniques used in this project
+Tri-training.ipynb ------ This file contains the Tri-training algorithm
+Postures.csv ------ This file is the original data from kaggle motion capture hand posture
+new_feature.csv ------ This file is the data after preprocessing, including only Class,X0,Y0,Z0,X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3, and all the missing values are filled by the means of classes.
+new_feature2.csv ------ This file is the data after preprocessing, including only Class,X0,Y0,Z0,X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4, and all the missing values are filled by the means of classes.
+
+The Co-Forest algorithm comes from Ming Li and Zhi-Hua Zhou.[1]
+The Tri-training algorithm comes from Zhi-Hua Zhou and Ming Li.[2]
+
+[1] Li, Ming, and Zhi-Hua Zhou. "Improve computer-aided diagnosis with machine learning techniques using undiagnosed samples." IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans 37.6 (2007): 1088-1098.
+[2] Zhou, Zhi-Hua, and Ming Li. "Tri-training: Exploiting unlabeled data using three classifiers." IEEE Transactions on knowledge and Data Engineering 17.11 (2005): 1529-1541.
